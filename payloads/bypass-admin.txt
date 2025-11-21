@@ -1,0 +1,17 @@
+# Top Common Default Credentials
+# Usage: Brute Force / Guessing Testing
+# Format: username:password
+
+admin:admin
+admin:password
+admin:123456
+root:root
+root:toor
+user:user
+guest:guest
+admin1:password
+administrator:password
+support:support
+test:test
+admin:admin123
+sysadmin:password
