@@ -30,9 +30,9 @@ Analysis of secure vs vulnerable authentication code.
 
 Common wordlists for testing the login forms.
 
-* **`sqli-auth-bypass.txt`** - Strings to bypass logic (e.g., `' OR 1=1 --`).
-* **`xss-login-test.txt`** - Scripts to test input sanitization.
-* **`top-credentials.txt`** - Common default username/passwords.
+* **`bypass-sql.txt`** - Strings to bypass logic (e.g., `' OR 1=1 --`).
+* **`xss.txt`** - Scripts to test input sanitization.
+* **`bypass-admin.txt`** - Common default username/passwords.
 
 ---
 
