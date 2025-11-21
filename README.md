@@ -1,4 +1,4 @@
-# 🧪 Login Research Kit
+# 🧪 Login
 
 This project is for **Educational Research** purposes. It is a complete kit containing **UI Templates**, **Backend Logic Analysis**, and **Security Payloads**.
 
