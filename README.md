@@ -1,12 +1,12 @@
-# 🧪 Login Template Collection
+# 🧪 Login Research Kit
 
-This project is for **Educational Research** purposes. It explores modern UI/UX, CSS animations, and interactive designs without using heavy frameworks.
+This project is for **Educational Research** purposes. It is a complete kit containing **UI Templates**, **Backend Logic Analysis**, and **Security Payloads**.
 
-![Project Preview](template/preview.gif)
+![Project Preview](/template/preview.gif)
 
-## 📂 Template List
+## 📂 1. UI Templates (`/template/`)
 
-Here are the 5 experimental templates included in this repository:
+Experimental login designs exploring modern CSS without frameworks.
 
 | Folder | Name | Description |
 | :--- | :--- | :--- |
@@ -16,18 +16,23 @@ Here are the 5 experimental templates included in this repository:
 | **`login4`** | **Zero-G Orbital** | Space theme with floating animation and pure CSS stars. |
 | **`login5`** | **Quantum Flux** | **Masterpiece.** Liquid light borders, magnetic buttons, and responsive design. |
 
-## 🛠️ Tech Stack
-* **HTML5**
-* **CSS3** (Animations, 3D Transforms, Flexbox/Grid)
-* **Vanilla JavaScript** (For physics and parallax effects)
+## 🧠 2. Backend Logic (`/php/`)
 
-## 🚀 How to Use
-1.  Clone this repository:
-    ```bash
-    git clone [https://github.com/6ickzone/login.git](https://github.com/6ickzone/login.git)
-    ```
-2.  Open the folder of the template you want to see (e.g., `login5`).
-3.  Open source :) 
+Analysis of secure vs vulnerable authentication code.
+
+| File | Status | Description |
+| :--- | :--- | :--- |
+| **`dont-use-like-this.php`** | 💀 **Vulnerable** | Example of bad code. Susceptible to **SQL Injection**. |
+| **`better-use-like-this.php`** | 🛡️ **Secure** | Best practice example using **PDO** and **Prepared Statements**. |
+| **`setup.sql`** | 🗄️ **Database** | Dummy SQL table for testing authentication. |
+
+## 💣 3. Payloads (`/payloads/`)
+
+Common wordlists for testing the login forms.
+
+* **`sqli-auth-bypass.txt`** - Strings to bypass logic (e.g., `' OR 1=1 --`).
+* **`xss-login-test.txt`** - Scripts to test input sanitization.
+* **`top-credentials.txt`** - Common default username/passwords.
 
 ---
 
@@ -39,7 +44,7 @@ Looking for more advanced tools? For **Dorkers**, **Exploits**, and **Payloads**
 ---
 
 ## 📜 Credits
-* **Zero-G Orbital (`login4`):** Credit to **Anastasia Goodwin** for the original star concept.
+* **Zero-G Orbital:** Credit to **Anastasia Goodwin** for the original star concept.
 
 ---
 **Created by 6ickzone**
